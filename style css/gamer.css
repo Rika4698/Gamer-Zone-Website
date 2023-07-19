@@ -1,0 +1,132 @@
+/* common share style */
+body {
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Work Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* navber style */
+.nav-container {
+    background-color: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    width: 1920px;
+    height: 130px;
+    margin: 0, auto;
+   border: 1px solid black;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+
+
+
+}
+
+.logo-container {
+    display: flex;
+    margin-left: 240px;
+    gap: 20px;
+
+}
+
+.logo-container p {
+    /* text-align: center; */
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+    width: 147px;
+    height: 53px;
+    margin-top: 39px;
+    margin-bottom: 39px;
+
+    
+
+
+}
+
+#game {
+    color: rgb(255, 66, 165);
+}
+
+.logo-container img {
+    width: 86.041px;
+    /* height: 40px; */
+    object-fit: contain;
+    margin-top: 44px;
+    margin-bottom: 46px;
+}
+
+.nav-items-container {
+
+    display: flex;
+   
+}
+
+.nav-items-container ul {
+
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    /* margin-right: 240px; */
+    margin-left: 620px;
+    
+}
+
+.nav-items-container li {
+    list-style: none;
+   
+}
+
+.nav-items-container a {
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 54px;
+    margin-bottom: 55px;
+    
+
+}
+
+
+
+
+button {
+    border-radius: 8px;
+    background-color: rgba(11, 2, 35, 0.10);
+    width: 262px;
+    height: 56px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    margin-top: 37px ; 
+    margin-bottom:37px ;
+    margin-right: 240px;
+
+}
+button >p{
+    color: #3C354F;
+text-align:center;
+display: inline;
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;
+margin:17px 19px 18px 16px;
+}
+
+.nav-btn {
+width: 33.916px;
+height: 24px;
+margin-right: 16px;
+
+}
+
+.nav-btn2 {
+width: 24px;
+height: 24px;
+margin-right: 24.8px;
+
+}
