@@ -304,8 +304,8 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     font-weight: 700;
     margin-bottom: 20px;
     margin-top: 300px;
-   
-   
+
+
 }
 
 .text-change {
@@ -314,26 +314,28 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.section-descrip{
+
+.section-descrip {
     color: #534C64;
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
 }
-.section-head{
+
+.section-head {
     margin-left: 120px;
-    
+
     /* margin-right: 250px; */
-   
-    
-    
+
+
+
 }
 
 .section-container {
     display: flex;
-    justify-content:space-between;
-    
+    justify-content: space-between;
+
 }
 
 
@@ -341,7 +343,7 @@ width: 100%;
     position: relative;
     width: 50%;
     height: auto;
-    
+
 
 }
 
@@ -353,7 +355,7 @@ width: 100%;
     background: url('../images/Rectangle\ 55.png'),
         lightgray -7.583px 0px / 102.389% 100% no-repeat;
     margin-top: 120px;
-    margin-left: 120px;
+    margin-left: 100px;
 
 }
 
@@ -368,4 +370,222 @@ width: 100%;
     border: 5px solid #FFF;
     background: url('../images/Rectangle\ 66.png'), lightgray 0px -0.304px / 100% 117.229% no-repeat;
 
+}
+
+
+/* section 2 style */
+
+.section2-container{
+width: 100%;
+height: 600px;
+background-color:rgb(250, 240, 245);
+
+display: flex;
+
+/* justify-content: center; */
+/* align-items:center; */
+flex-wrap:wrap;
+
+border: 2px solid black;
+margin-top: 100px;
+
+}
+.row{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 80px;
+}
+.second-row{
+    display: flex;
+  justify-content: center;
+  gap:15px;
+  margin-left: 90px;
+  margin-right: 40px;
+}
+
+
+.btn-1 button{
+    border-radius: 50px;
+background-color: #FFF;
+display: flex;
+align-items: center;
+justify-content: center;
+border:0;
+height: 70px;
+
+}
+.btn-2 button{
+    border-radius: 50px;
+background: #FFF;
+display: flex;
+align-items: center;
+justify-content: center;
+border:0;
+height: 70px;
+
+
+}
+.btn-3 button{
+    border-radius: 50px;
+background: #FFF;
+display: flex;
+align-items: center;
+justify-content: center;
+border:0;
+height: 70px;
+
+
+}
+.btn-4 button{
+    border-radius: 50px;
+background: #FFF;
+display: flex;
+align-items: center;
+justify-content: center;
+border:0;
+height: 70px;
+margin-right: 0;
+
+}
+.btn-5 button{
+    border-radius: 50px;
+background: #FFF;
+display: flex;
+align-items: center;
+justify-content: center;
+border:0;
+height: 70px;
+}
+.btn-6 button{
+    border-radius: 50px;
+background: #FFF;
+display: flex;
+align-items: center;
+justify-content: center;
+border:0;
+height: 70px;
+
+}
+.btn-7 button{
+    border-radius: 50px;
+background: #FFF;
+display: flex;
+align-items: center;
+justify-content: center;
+border:0;
+height: 70px;
+
+
+}
+.btn-8 button{
+    border-radius: 50px;
+background: #FFF;
+display: flex;
+align-items: center;
+justify-content: center;
+border:0;
+height: 70px;
+
+}
+.btn-9 button{
+    border-radius: 50px;
+background: #FFF;
+display: flex;
+align-items: center;
+justify-content: center;
+border:0;
+height: 70px;
+
+}
+
+
+
+
+/* footer style */
+
+
+footer {
+    width: 100%;
+    height: 600px;
+    margin-top: 0px;
+    
+    background-color: #0B0223;
+    
+}
+
+.footer-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    gap: 20px;
+
+}
+
+.footer-head p {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 100px;
+
+}
+
+.footer-head img {
+    margin-top: 50px;
+}
+
+.footer-list ul {
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 30px;
+}
+
+.footer-list li {
+    list-style: none;
+}
+
+.social-link {
+    /* width:40px; */
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+
+
+}
+
+.paragraph {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 70px;
+
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 100px;
 }
