@@ -15,10 +15,9 @@ body {
     width: 100%;
     height: 130px;
     margin: 0 auto;
-    border: 1px solid black;
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 
 
 
@@ -62,7 +61,7 @@ body {
 .nav-items-container {
 
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 
 
@@ -73,16 +72,16 @@ body {
 
 .test {
 
-    text-decoration: none;
+    
     color: #3C354F;
     font-size: 18px;
     font-weight: 500;
-    text-align: center;
-    /* margin-top: 54px; */
-    /* margin-bottom: 55px; */
-
-
-    margin: 54px 32px 55px 100px;
+   text-align: center;
+    width:100px;
+    height: 40px;
+    margin: 0px 30px 0px 100px;
+    padding-bottom: 56px;
+    
 
 
 }
@@ -92,7 +91,7 @@ body {
     color: #3C354F;
     font-size: 18px;
     font-weight: 500;
-    margin-top: 54px;
+    margin-top: 0px;
     margin-bottom: 55px;
     width: 18px 21px;
     margin-right: 32px;
@@ -112,12 +111,13 @@ body {
     border: 0;
     display: flex;
     align-items: center;
-    /* justify-content: space-around; */
-    margin-top: 37px;
+    justify-content:center;
+    margin-top: 40px;
     margin-bottom: 37px;
     margin-right: 120px;
 
 }
+
 
 button>p {
     color: #3C354F;
@@ -146,89 +146,91 @@ button>p {
 /* banner style */
 
 .frame1 {
-    display: flex;
-    /* justify-content: center; */
-    gap: 12px;
-    border: 1px solid black;
-    margin-top: 24px;
-    padding-bottom: 0;
+   display: flex;
+   gap:12px;
 }
 
 .frame1 img {
     width: 24px;
-    height: 24px
+    height: 24px;
+    object-fit: cover;
+    margin-top: 19px;
+    margin-bottom:12px;
 }
 
 .frame1 p {
     color: #534C64;
     /* text-align: center; */
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 
 .frame2 {
     display: flex;
-    /* justify-content: center; */
     gap: 12px;
-    margin-top: 17px;
-    border: 1px solid black;
+    margin: 0;
 
 }
 
 .frame2 img {
     width: 24px;
     height: 24px;
+    margin-bottom: 20px;
 }
 
 .frame2 p {
     color: #534C64;
-
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin:0;
 }
 
 .frame3 {
     display: flex;
-    /* justify-content: center; */
-    margin-top: 17px;
     gap: 12px;
-    border: 1px solid black;
+    padding: 0;
 }
 
 .frame3 img {
     width: 24px;
     height: 24px;
+   
 }
 
 .frame3 p {
     color: #534C64;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     margin-top: 0;
-    margin-bottom: 0;
+    
 
 }
 
 .banner-descript {
-    margin-left: 240px;
+    margin-left: 44px;
 }
 
 .banner-container {
     display: flex;
-    gap: 68px;
+    gap: 60px;
+    
 
 
+}
+.banner-img
+{
+    margin-top: 20px;
+    height: 500px;
+    width:100%;
+    
 }
 
 .banner-text {
     background-image: url('../images/Group\ 14.png');
-    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
-    width: 40%;
+    background-repeat:no-repeat;
+    background-position: 100%;
+    width: 60%;
     /* height: 500px; */
     margin-top: 0;
     margin-left: 0;
@@ -236,42 +238,37 @@ button>p {
     align-items: center;
 }
 
-/* .banner-text h2 { */
+.banner-text h2 {
 color: #0B0223;
 font-size: 48px;
 font-weight: 600;
-text-transform: uppercase;
-margin-top: 148px;
-margin-left: 244px;
+margin-top: 70px;
+margin-left: 50px;
 margin-bottom: 0;
 }
 
-/* .banner-container h1 { */
+.banner-container h1 {
 
 font-size: 95px;
 font-weight: 800;
-text-transform: uppercase;
 margin-top: 0;
-margin-left: 240px;
+margin-left: 44px;
 margin-bottom: 0;
 background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-border: 1px solid black;
+
 }
 
-.banner-container img {
-    margin-top: 19px;
-    border: 1px solid black;
-}
 
-/* .banner-btn { */
+
+.banner-btn {
 display: inline-flex;
 padding: 21px 40px;
 align-items: flex-start;
 gap: 10px;
-margin-left: 240px;
+margin-left: 44px;
 border: 0;
 color: #FFF;
 font-size: 20px;
@@ -291,8 +288,85 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     gap: 10px;
     border-radius: 48px;
     background: #4EC5F7;
-    margin-top: 41px;
+    margin-top: 25px;
     border: 0;
+}
+
+
+/* main section style */
+
+
+.main-section-head  h3{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 56px;
+    margin-bottom: 0;
+    
+}
+.main-section-head p{
+    color: #534C64;
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 120px;
+text-align: center;
+
+
+}
+.main-section-head{
+   /* width: 100%; */
+  
+   
+}
+.main-section-container{
+    width: 100%;
+    
+    /* margin: 0 auto; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap:30px;
+    
+    
+
+}
+.section-img img{
+    
+    width: 150px;
+  
+border-radius: 16px;
+}
+
+
+.section-img p{
+    
+    color: #534C64;
+font-size: 13px;
+font-weight: 500;
+text-align: start;
+margin:24px 0px 0 0;
+/* justify-content: space-between; */
+padding:0 ;
+width:150px;
+
+}
+
+
+
+.header-change{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 48px;
+font-weight: 700;
+}
+
+.main-section-head{
+    align-items: center;
 }
 
 /* section style */
@@ -302,7 +376,7 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     font-weight: 700;
     color: #0B0223;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 14px;
     margin-top: 300px;
 
 
@@ -324,7 +398,7 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
 }
 
 .section-head {
-    margin-left: 120px;
+    margin-left: 150px;
 
     /* margin-right: 250px; */
 
@@ -349,8 +423,8 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
 
 .image1 {
     position: relative;
-    width: 80%;
-    height: 550px;
+    width: 69%;
+    height: 500px;
     border-radius: 8px;
     background: url('../images/Rectangle\ 55.png'),
         lightgray -7.583px 0px / 102.389% 100% no-repeat;
@@ -361,9 +435,9 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
 
 .image2 {
     position: absolute;
-    bottom: -40px;
+    bottom: -60px;
     /* right:0; */
-    left: 40px;
+    left: 20px;
     width: 200px;
     height: 275px;
     border-radius: 8px;
@@ -382,8 +456,8 @@ background-color:rgb(250, 240, 245);
 
 display: flex;
 
-/* justify-content: center; */
-/* align-items:center; */
+justify-content: center;
+align-items:center;
 flex-wrap:wrap;
 
 border: 2px solid black;
@@ -395,9 +469,13 @@ margin-top: 100px;
   justify-content: center;
   align-items: center;
   gap:10px;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding-top: 80px;
+  margin-left: 15px;
+  margin-right: 16px;
+  padding-top: 0px;
+  color: #0B0223;
+font-size: 20px;
+font-weight: 600;
+
 }
 .second-row{
     display: flex;
@@ -405,102 +483,43 @@ margin-top: 100px;
   gap:15px;
   margin-left: 90px;
   margin-right: 40px;
+  padding-top: 30px;
+  color: #0B0223;
+font-size: 20px;
+font-weight: 600;
+}
+.btn-section2:hover{
+    /* color: rgb(255, 66, 165); */
+    border: 1px solid  rgb(255, 66, 165);
+    border-radius: 50px;
+    background-color: #FFF;
+    
+}
+.btn-section2:hover p{
+    color: rgb(255, 66, 165);
 }
 
 
-.btn-1 button{
+.btn-section2 {
     border-radius: 50px;
 background-color: #FFF;
 display: flex;
 align-items: center;
 justify-content: center;
-border:0;
-height: 70px;
+border:1px solid transparent;
+gap:16px;
+padding-left: 10px;
+padding-right: 12px;
+/* height: 70px; */
 
 }
-.btn-2 button{
-    border-radius: 50px;
-background: #FFF;
-display: flex;
-align-items: center;
-justify-content: center;
-border:0;
-height: 70px;
-
+.btn-section2 p{
+    color: #0B0223;
+font-size: 20px;
+font-weight: 600;
 
 }
-.btn-3 button{
-    border-radius: 50px;
-background: #FFF;
-display: flex;
-align-items: center;
-justify-content: center;
-border:0;
-height: 70px;
 
-
-}
-.btn-4 button{
-    border-radius: 50px;
-background: #FFF;
-display: flex;
-align-items: center;
-justify-content: center;
-border:0;
-height: 70px;
-margin-right: 0;
-
-}
-.btn-5 button{
-    border-radius: 50px;
-background: #FFF;
-display: flex;
-align-items: center;
-justify-content: center;
-border:0;
-height: 70px;
-}
-.btn-6 button{
-    border-radius: 50px;
-background: #FFF;
-display: flex;
-align-items: center;
-justify-content: center;
-border:0;
-height: 70px;
-
-}
-.btn-7 button{
-    border-radius: 50px;
-background: #FFF;
-display: flex;
-align-items: center;
-justify-content: center;
-border:0;
-height: 70px;
-
-
-}
-.btn-8 button{
-    border-radius: 50px;
-background: #FFF;
-display: flex;
-align-items: center;
-justify-content: center;
-border:0;
-height: 70px;
-
-}
-.btn-9 button{
-    border-radius: 50px;
-background: #FFF;
-display: flex;
-align-items: center;
-justify-content: center;
-border:0;
-height: 70px;
-
-}
 
 
 
@@ -572,7 +591,7 @@ footer {
 
 .paragraph {
     color: rgba(255, 255, 255, 0.60);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -585,7 +604,7 @@ footer {
 .copyright {
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 500;
     margin-bottom: 100px;
 }
